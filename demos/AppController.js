@@ -6,4 +6,4 @@ var controller = function($mdSidenav) {
 
 };
 
-angular.module('ngMaterialSidemenu').controller('AppController', controller);
+angular.module('ngMaterialAccordion').controller('AppController', controller);

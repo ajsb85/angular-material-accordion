@@ -6,7 +6,7 @@ import mdSidemenuButton from './scripts/mdSidemenuButton';
 ((angular) => {
 
   angular
-    .module('ngMaterialSidemenu', [
+    .module('ngMaterialAccordion', [
       'ngMaterial'
     ])
     .directive(mdSidemenu.name, mdSidemenu.directive)

@@ -13,7 +13,7 @@ This package can be installed using npm or bower:
 
 ## Usage
 
-Include the script and CSS files in you HTML and add `ngMaterialSidemenu` in you module. Also this module has support for browserify or wiredep.
+Include the script and CSS files in you HTML and add `ngMaterialAccordion` in you module. Also this module has support for browserify or wiredep.
 
 ```html
 <link rel="stylesheet" href="path/to/angular-material-accordion.css">
