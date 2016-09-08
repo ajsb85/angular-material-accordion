@@ -28,43 +28,43 @@ To use icons with ligatures you should include the reference for the Material Ic
 
 After that you can add the following markup:
 ```html
-<md-sidemenu>
-  <md-sidemenu-group>
+<md-accordion>
+  <md-accordion-group>
     <md-subheader class="md-no-sticky">Caption</md-subheader>
 
-    <md-sidemenu-content md-icon="home" md-heading="Menu 1" md-arrow="true">
-      <md-sidemenu-button href="#">Submenu 1</md-sidemenu-button>
-      <md-sidemenu-button href="#">Submenu 2</md-sidemenu-button>
-      <md-sidemenu-button href="#">Submenu 3</md-sidemenu-button>
-    </md-sidemenu-content>
-  </md-sidemenu-group>
+    <md-accordion-content md-icon="home" md-heading="Menu 1" md-arrow="true">
+      <md-accordion-button href="#">Submenu 1</md-accordion-button>
+      <md-accordion-button href="#">Submenu 2</md-accordion-button>
+      <md-accordion-button href="#">Submenu 3</md-accordion-button>
+    </md-accordion-content>
+  </md-accordion-group>
   
-  <md-sidemenu-group>
+  <md-accordion-group>
     <md-divider></md-divider>
 
     <md-subheader class="md-no-sticky">Caption</md-subheader>
 
-    <md-sidemenu-button href="#">Menu 4</md-sidemenu-button>
-  </md-sidemenu-group>
-</md-sidemenu>
+    <md-accordion-button href="#">Menu 4</md-accordion-button>
+  </md-accordion-group>
+</md-accordion>
 ```
 
 ### Components
 
-* `<md-sidemenu>`
+* `<md-accordion>`
 Is the main directive to hold all navigation items.
 
-* `<md-sidemenu-group>`
+* `<md-accordion-group>`
 Is needed to create groups of content.
 
-* `<md-sidemenu-content>`
+* `<md-accordion-content>`
 Define the collapsible navigation element and there's some attributes to setup. The following attributes are available:
  - `md-icon` - You can use font icons
  - `md-svg-icon` - To use external svg icons
  - `md-heading` - The title of the section
  - `md-arrow` - An optional boolean to show an indicator arrow
 
-* `<md-sidemenu-button>` 
+* `<md-accordion-button>` 
  Add the buttons inside the navigation. The following attributes are available:
  - `href` - The href for the button
  - `ui-sref` - The ui-router alternative

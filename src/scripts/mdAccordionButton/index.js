@@ -14,13 +14,13 @@ let directive = () => {
     transclude: true,
     template,
     controller,
-    controllerAs: '$mdSidemenuButton',
+    controllerAs: '$mdAccordionButton',
     bindToController: true
   };
 
 };
 
 export default {
-  name: 'mdSidemenuButton',
+  name: 'mdAccordionButton',
   directive
 };

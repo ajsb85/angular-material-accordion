@@ -1,7 +1,7 @@
-import mdSidemenu from './scripts/mdSidemenu';
-import mdSidemenuGroup from './scripts/mdSidemenuGroup';
-import mdSidemenuContent from './scripts/mdSidemenuContent';
-import mdSidemenuButton from './scripts/mdSidemenuButton';
+import mdAccordion from './scripts/mdAccordion';
+import mdAccordionGroup from './scripts/mdAccordionGroup';
+import mdAccordionContent from './scripts/mdAccordionContent';
+import mdAccordionButton from './scripts/mdAccordionButton';
 
 ((angular) => {
 
@@ -9,9 +9,9 @@ import mdSidemenuButton from './scripts/mdSidemenuButton';
     .module('ngMaterialAccordion', [
       'ngMaterial'
     ])
-    .directive(mdSidemenu.name, mdSidemenu.directive)
-    .directive(mdSidemenuGroup.name, mdSidemenuGroup.directive)
-    .directive(mdSidemenuContent.name, mdSidemenuContent.directive)
-    .directive(mdSidemenuButton.name, mdSidemenuButton.directive);
+    .directive(mdAccordion.name, mdAccordion.directive)
+    .directive(mdAccordionGroup.name, mdAccordionGroup.directive)
+    .directive(mdAccordionContent.name, mdAccordionContent.directive)
+    .directive(mdAccordionButton.name, mdAccordionButton.directive);
 
 })(angular);

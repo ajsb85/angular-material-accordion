@@ -4,9 +4,9 @@ export default function($scope, $element, $attributes) {
     return $attributes.locked;
   }, function(locked) {
     if (locked) {
-      $element[0].classList.add('md-sidemenu-locked');
+      $element[0].classList.add('md-accordion-locked');
     } else {
-      $element[0].classList.remove('md-sidemenu-locked');
+      $element[0].classList.remove('md-accordion-locked');
     }
   });
 

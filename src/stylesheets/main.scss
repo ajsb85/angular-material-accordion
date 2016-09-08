@@ -1,6 +1,6 @@
 @import 'variables';
 
-.md-sidemenu {
+.md-accordion {
   md-divider {
     width: 100%;
     margin: 8px 0;
@@ -39,12 +39,12 @@
   }
 }
 
-md-sidemenu-button {
+md-accordion-button {
   width: 100%;
   display: flex;
 }
 
-.md-sidemenu-button {
+.md-accordion-button {
   md-icon:first-child {
     max-width: 24px;
     margin-right: 32px;
@@ -55,18 +55,18 @@ md-sidemenu-button {
   }
 }
 
-.md-sidemenu-content {
+.md-accordion-content {
   width: 100%;
   min-height: 48px;
   overflow: hidden;
 }
 
-.md-sidemenu-toggle {
+.md-accordion-toggle {
   &.md-active md-icon:last-child {
     transform: rotate(180deg) translateZ(0);
   }
 
-  .md-sidemenu & {
+  .md-accordion & {
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -91,7 +91,7 @@ md-sidemenu-button {
   }
 }
 
-.md-sidemenu-wrapper {
+.md-accordion-wrapper {
   margin-top: -120%;
   overflow: hidden;
   opacity: 0;
@@ -105,7 +105,7 @@ md-sidemenu-button {
     transition-timing-function: cubic-bezier(.25, .8, .25, 1);
   }
 
-  &.md-sidemenu-wrapper-icons .md-button {
+  &.md-accordion-wrapper-icons .md-button {
     padding-left: 72px;
   }
 
