@@ -1,3 +1,3 @@
-require('./dest/angular-material-sidemenu.js');
+require('./dist/angular-material-sidemenu.js');
 
 module.exports = 'ngMaterialSidemenu';

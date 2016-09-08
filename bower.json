@@ -19,8 +19,8 @@
     "Sidemenu"
   ],
   "main": [
-    "dest/angular-material-sidemenu.js",
-    "dest/angular-material-sidemenu.css"
+    "dist/angular-material-sidemenu.js",
+    "dist/angular-material-sidemenu.css"
   ],
   "ignore": [
     "node_modules",

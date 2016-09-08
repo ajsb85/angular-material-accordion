@@ -3,7 +3,7 @@ import path from 'path';
 let joinPath = (...paths) => path.normalize(path.join.apply(this, paths));
 
 let srcFolder = 'src';
-let destFolder = 'dest';
+let destFolder = 'dist';
 let gulpFolder = 'gulp';
 let demoFolder = 'demos';
 let demoFiles = '**/*.{html,css,js}';
