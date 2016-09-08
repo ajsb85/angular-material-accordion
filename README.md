@@ -6,9 +6,8 @@ This is a package to create navigation menus using Angular Material. This follow
 
 ## Installation
 
-This package can be installed using npm or bower:
+This package can be installed using bower:
 
-* `npm install angular-material-accordion`
 * `bower install angular-material-accordion`
 
 ## Usage
