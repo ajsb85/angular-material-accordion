@@ -62,7 +62,7 @@ md-accordion-button {
 }
 
 .md-accordion-toggle {
-  &.md-active md-icon:last-child {
+  &.md-active .accordion-arrow {
     transform: rotate(180deg) translateZ(0);
   }
 
@@ -75,7 +75,7 @@ md-accordion-button {
     transition: .4s cubic-bezier(.25, .8, .25, 1);
   }
 
-  md-icon {
+  .accordion-arrow {
     transition: .4s transform cubic-bezier(.25, .8, .25, 1);
 
     &:first-child {
