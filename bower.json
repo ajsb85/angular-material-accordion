@@ -1,7 +1,7 @@
 {
-  "projectName": "Angular Material Sidemenu",
+  "projectName": "Angular Material Accordion",
   "name": "angular-material-accordion",
-  "description": "A simple sidemenu for Angular Material",
+  "description": "A simple Accordion for Angular Material",
   "version": "1.0.2",
   "license": "MIT",
   "repository": {
@@ -16,7 +16,7 @@
     "Material",
     "Design",
     "Navigation",
-    "Sidemenu"
+    "Accordion"
   ],
   "main": [
     "dist/angular-material-accordion.js",

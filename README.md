@@ -1,4 +1,4 @@
-# Angular Material Sidemenu
+# Angular Material Accordion
 
 ## Introduction
 
