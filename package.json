@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/ajsb85/angular-material-accordion.git"
   },
+  "scripts": {
+    "start": "npm i & bower i"
+  },
   "authors": [
     "Alexander J. Salas B. <a.salas@ieee.org>"
   ],
