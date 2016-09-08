@@ -1,6 +1,6 @@
 The MIT License
 
-Copyright (c) 2015 Kyle E. Mitchell and other contributors
+Copyright (c) 2016 Alexander J. Salas B. and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
