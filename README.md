@@ -8,16 +8,16 @@ This is a package to create navigation menus using Angular Material. This follow
 
 This package can be installed using npm or bower:
 
-* `npm install angular-material-sidemenu`
-* `bower install angular-material-sidemenu`
+* `npm install angular-material-accordion`
+* `bower install angular-material-accordion`
 
 ## Usage
 
 Include the script and CSS files in you HTML and add `ngMaterialSidemenu` in you module. Also this module has support for browserify or wiredep.
 
 ```html
-<link rel="stylesheet" href="path/to/angular-material-sidemenu.css">
-<script src="path/to/angular-material-sidemenu.js"></script>
+<link rel="stylesheet" href="path/to/angular-material-accordion.css">
+<script src="path/to/angular-material-accordion.js"></script>
 ```
 
 To use icons with ligatures you should include the reference for the Material Icons:

@@ -7,7 +7,7 @@ let destFolder = 'dist';
 let gulpFolder = 'gulp';
 let demoFolder = 'demos';
 let demoFiles = '**/*.{html,css,js}';
-let mainFile = 'angular-material-sidemenu';
+let mainFile = 'angular-material-accordion';
 let mainScript = mainFile + '.js';
 let mainStylesheet = mainFile + '.css';
 
