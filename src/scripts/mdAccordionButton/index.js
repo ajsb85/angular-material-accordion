@@ -6,6 +6,7 @@ let directive = () => {
   return {
     restrict: 'E',
     scope: {
+      ngClick: '@?',
       uiSref: '@?',
       uiSrefActive: '@?',
       href: '@?',
