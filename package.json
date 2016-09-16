@@ -2,7 +2,7 @@
   "projectName": "Angular Material Accordion",
   "name": "angular-material-accordion",
   "description": "A simple Accordion for Angular Material",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "repository": {
     "type": "git",
