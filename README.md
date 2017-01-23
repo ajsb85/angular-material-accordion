@@ -1,5 +1,7 @@
 # Angular Material Accordion
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ajsb85/angular-material-accordion.svg)](https://greenkeeper.io/)
+
 ## Introduction
 
 This is a package to create navigation menus using Angular Material. This follows all the design guidelines provided by Google Material spec.
