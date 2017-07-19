@@ -9,6 +9,7 @@ let directive = () => {
       ngClick: '@?',
       uiSref: '@?',
       uiSrefActive: '@?',
+      active: '<?mdActive',
       href: '@?',
       target: '@?'
     },
