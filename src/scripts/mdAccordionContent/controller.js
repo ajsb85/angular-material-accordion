@@ -1,9 +1,9 @@
 export default function() {
 
-  this.visible = false;
+  this.collapsed = angular.isDefined(this.collapsed) ? this.collapsed : true;
 
   this.changeState = function() {
-    this.visible = !this.visible;
+    this.collapsed = !this.collapsed;
   };
 
 }
