@@ -3,6 +3,7 @@ export default function() {
   return `
     <md-button
       class="md-accordion-button"
+      ng-class="{active:$mdAccordionButton.active}"
       layout="column"
       ng-attr-href="{{ $mdAccordionButton.href }}"
       ng-attr-target="{{ $mdAccordionButton.target }}">
